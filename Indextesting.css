@@ -1,44 +1,17 @@
-
-
-
-@media only screen and (min-width: 300px) {
-  #b1 {
-    background-color: rgb(197, 224, 190);
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  #b1 {
-    background-color: rgb(194, 169, 204);
-  }
-}
-
-
-
-@media only screen and (min-width: 300px) {
-  #b2 {
-    background-color: rgb(170, 209, 221);
-  }
-}
-
-@media only screen and (max-width: 600px) {
-  #b2 {
-    background-color: rgb(255, 181, 132);
-  }
-}
-
-
-
-
-
-
-  #body
-  {
-    background-color: rgb(135, 138, 136);
+* {
+    box-sizing: border-box;
   }
 
-
+  body {
+    background-color: rgb(30, 6, 6);
+  }
   
+  @media only screen and (max-width: 500px) {
+    body {
+      background-color: rgb(241, 182, 241);
+    }
+  }
+
 
 #text1 {border: 2px solid rgb(48, 47, 121);
     float: left;
@@ -67,61 +40,9 @@
   
   }
 
-  #img1 {
-    max-width: 100%;
-    height: auto;
-  }
-
-
-
-
 #img2
-{ max-width: 100%;
-  height: auto;
-  float: left;
-  
-  }
-
-  #story1 {
-    max-width: 80%;
-    min-width: 50%;
-    height: auto;
-  }
-
-  #story2 {
-    max-width: 80%;
-    min-width: 50%;
-    height: auto;
-  }
-
-  #story3 {
-    max-width: 80%;
-    min-width: 50%;
-    height: auto;
-  }
-
-  
-  #sitemap {
-    max-width: 100%;
-    min-width: 75%;
-    height: auto;
-  }
-
-
-
-
-  footer {
-    text-align: center;
-    padding: 3px;
-    background-color: rgb(219, 203, 196);
-    color: rgb(0, 0, 0);
-  }
-
-
-#nav {border: 3px solid rgb(44, 61, 48);
+{border: 3px solid rgb(48, 47, 121);
   float: right;
   width: 100%;
-  font-size: large;
-  background-color: rgb(219, 203, 196);
   
   }
