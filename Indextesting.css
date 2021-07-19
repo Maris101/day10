@@ -1,4 +1,17 @@
-* {
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+@media only screen and (max-width: 500px) {
+  body {
+    background-color: rgb(241, 182, 241);
+  }
+}
+
+
+
+
+
+*
+{
     box-sizing: border-box;
   }
 
@@ -15,13 +28,6 @@
     background-color: rgb(170, 209, 221);
   }
   
-
-  @media only screen and (max-width: 500px) {
-    body {
-      background-color: rgb(241, 182, 241);
-    }
-  }
-
 
 #text1 {border: 2px solid rgb(48, 47, 121);
     float: left;
