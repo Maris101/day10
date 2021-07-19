@@ -2,10 +2,20 @@
     box-sizing: border-box;
   }
 
-  body {
-    background-color: rgb(75, 6, 6);
+  #body
+  {
+    background-color: rgb(135, 138, 136);
+  }
+
+  #b1 {
+    background-color: rgb(170, 221, 185);
   }
   
+  #b2 {
+    background-color: rgb(170, 209, 221);
+  }
+  
+
   @media only screen and (max-width: 500px) {
     body {
       background-color: rgb(241, 182, 241);
@@ -40,9 +50,31 @@
   
   }
 
+#img1
+
+
+
 #img2
 {border: 3px solid rgb(48, 47, 121);
   float: right;
   width: 100%;
+  
+  }
+
+
+
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(219, 203, 196);
+    color: rgb(0, 0, 0);
+  }
+
+
+#nav {border: 3px solid rgb(44, 61, 48);
+  float: right;
+  width: 100%;
+  font-size: large;
+  background-color: rgb(219, 203, 196);
   
   }
