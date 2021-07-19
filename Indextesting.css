@@ -1,8 +1,29 @@
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-@media only screen and (max-width: 500px) {
-  body {
-    background-color: rgb(241, 182, 241);
+
+
+@media only screen and (min-width: 300px) {
+  #b1 {
+    background-color: rgb(197, 224, 190);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #b1 {
+    background-color: rgb(194, 169, 204);
+  }
+}
+
+
+
+@media only screen and (min-width: 300px) {
+  #b2 {
+    background-color: rgb(170, 209, 221);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #b2 {
+    background-color: rgb(255, 181, 132);
   }
 }
 
@@ -10,23 +31,13 @@
 
 
 
-*
-{
-    box-sizing: border-box;
-  }
 
   #body
   {
     background-color: rgb(135, 138, 136);
   }
 
-  #b1 {
-    background-color: rgb(170, 221, 185);
-  }
-  
-  #b2 {
-    background-color: rgb(170, 209, 221);
-  }
+
   
 
 #text1 {border: 2px solid rgb(48, 47, 121);
@@ -56,16 +67,46 @@
   
   }
 
-#img1
+  #img1 {
+    max-width: 100%;
+    height: auto;
+  }
+
 
 
 
 #img2
-{border: 3px solid rgb(48, 47, 121);
-  float: right;
-  width: 100%;
+{ max-width: 100%;
+  height: auto;
+  float: left;
   
   }
+
+  #story1 {
+    max-width: 80%;
+    min-width: 50%;
+    height: auto;
+  }
+
+  #story2 {
+    max-width: 80%;
+    min-width: 50%;
+    height: auto;
+  }
+
+  #story3 {
+    max-width: 80%;
+    min-width: 50%;
+    height: auto;
+  }
+
+  
+  #sitemap {
+    max-width: 100%;
+    min-width: 75%;
+    height: auto;
+  }
+
 
 
 
