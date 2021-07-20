@@ -1,0 +1,59 @@
+mariscs* {
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: rgb(166, 240, 156);
+  }
+  
+  @media only screen and (max-width: 500px) {
+    body {
+      background-color: rgb(241, 182, 241);
+    }
+  }
+
+  #nav {border: 2px solid rgb(15, 53, 23);
+    background-color: rgb(226, 222, 160);
+    
+    
+    }
+
+
+#text1 {border: 2px solid rgb(48, 47, 121);
+    float: left;
+    width: 30%;
+    
+    }
+
+#text2 {border: 2px solid rgb(48, 47, 121);
+    float: right;
+    width: 30%;
+    
+    }
+
+#fish1  {border: 3px solid rgb(48, 47, 121);
+    float: right;
+    width: 100%;
+    
+    }
+
+.col-1 {width: 33.3%,}
+.col-2 {width: 33.3%;}
+.col-3 {width: 33.3%;}
+
+#foot{background-color: rgb(226, 222, 159);
+  text-align: center;
+  padding: 15px;
+}
+
+
+#formtest {border: 3px solid rgb(48, 47, 121);
+  
+  }
+
+#img2
+{
+  float: right;
+  width: 100%;
+  
+  }
